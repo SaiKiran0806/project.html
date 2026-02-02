@@ -1,4 +1,4 @@
-FROM amazonlinux:3
+FROM amazonlinux:2
 MAINTAINER "sai"
 RUN yum update -y
 RUN yum install httpd -y
